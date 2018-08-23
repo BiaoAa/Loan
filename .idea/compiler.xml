@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="loan-bean" />
+        <module name="loan-common-util" />
+        <module name="loan-interface" />
+        <module name="loan-manager-web" />
+        <module name="loan-service-util" />
+        <module name="loan-web-util" />
+        <module name="luan-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="loan-bean" target="1.8" />
+      <module name="loan-common-util" target="1.8" />
+      <module name="loan-interface" target="1.8" />
+      <module name="loan-manager-service" target="1.8" />
+      <module name="loan-manager-web" target="1.8" />
+      <module name="loan-parent" target="1.8" />
+      <module name="loan-service-util" target="1.8" />
+      <module name="loan-web-util" target="1.8" />
+      <module name="luan-manager-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

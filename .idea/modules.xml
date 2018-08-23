@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/loan.iml" filepath="$PROJECT_DIR$/.idea/loan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-bean/loan-bean.iml" filepath="$PROJECT_DIR$/loan-bean/loan-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-common-util/loan-common-util.iml" filepath="$PROJECT_DIR$/loan-common-util/loan-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-interface/loan-interface.iml" filepath="$PROJECT_DIR$/loan-interface/loan-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-manager-web/loan-manager-web.iml" filepath="$PROJECT_DIR$/loan-manager-web/loan-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-parent/loan-parent.iml" filepath="$PROJECT_DIR$/loan-parent/loan-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-service-util/loan-service-util.iml" filepath="$PROJECT_DIR$/loan-service-util/loan-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-web-util/loan-web-util.iml" filepath="$PROJECT_DIR$/loan-web-util/loan-web-util.iml" />
+    </modules>
+  </component>
+</project>

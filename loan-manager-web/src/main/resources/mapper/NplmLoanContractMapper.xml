@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.biaoba.loan.manager.mapper.NplmLoanContractMapper">
+   <resultMap id="NplmloanContractMap" type="com.biaoba.loan.bean.NplmLoanContract" autoMapping="true">
+       <id property="id" column="id"></id>
+       <collection property="nplmContractAttribute" ofType="com.biaoba.loan.bean.NplmContractAttribute" autoMapping="true">
+           <id property="id" column="loan_contract_id"></id>
+       </collection>
+    </resultMap>
+
+    <select id="loadContractList" resultMap="NplmloanContractMap">
+        select * from nplm_loan_contract nlc INNER JOIN  nplm_contract_attribute nca on nlc.id = nca.loan_contract_id limit #{pageNo},#{pageSize}
+    </select>
+
+    <select id="selectContractCount" resultType="java.lang.Integer">
+        SELECT count(*) from nplm_loan_contract nlc INNER JOIN  nplm_contract_attribute nca on nlc.id = nca.loan_contract_id
+    </select>
+</mapper>
